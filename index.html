@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ITS homepage</title>
+<link type="text/css" href="css/thietkeweb-seo.com.css" rel="stylesheet" 
+    media="only screen and (min-width: 1168px) and (max-width: 2959px)" />
+    
+<!-- #topnav -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript">
+	// initialise plugins
+	jQuery(function() {
+		// main navigation init
+		jQuery('ul.sf-menu').superfish({
+			delay : 600, // one second delay on mouseout 
+			animation : {
+				opacity : 'show',
+				height : 'show'
+			}, // fade-in and slide-down animation 
+			speed : 'normal', // faster animation speed 
+			autoArrows : false, // generation of arrow mark-up (for submenu) 
+			dropShadows : false
+		// drop shadows (for submenu)
+		});
+	});
+</script>
+<!-- #topnav -->
+
+<!-- banner slide -->
+<link rel="stylesheet" type="text/css" href="javascript/slider/themes/carbono/jquery.slider.css" />
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="javascript/slider/themes/carbono/jquery.slider.ie6.css" />
+<![endif]-->
+<!-- <script type="text/javascript" src="javascript/jquery.min.js"></script> -->
+<script type="text/javascript" src="javascript/slider/jquery.slider.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $(".slider").slideshow({
+	width      : 1000,
+	height     : 250,
+	transition : ['barLeft', 'barRight']
+  });
+});
+</script>
+<!-- banner slide -->
+
+<!-- Scoll up -->
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(window).scroll(function(){
+	    if ($(this).scrollTop() > 100) {
+	        $('.scrollup').fadeIn();
+	    } else {
+	        $('.scrollup').fadeOut();
+	    }
+	});
+	$('.scrollup').click(function(){
+	    $("html, body").animate({ scrollTop: 0 }, 600);
+	    return false;
+	});
+});
+</script>
+
+</head>
+<body>
+
+<div class="sticky">
+  <div class="top">
+    <div class="grid0">
+      <a href="" title="">
+        <img id="logo" src="images/logo.png" alt="" height="40" />
+      </a>
+      
+      <ul class="topnav">
+      	<li class="btnhome"><a href="" title=""></a></li>
+        <li><a href="" title="">Giới thiệu</a></li>
+        <li><a href="" title="">Khuyến mãi</a></li>
+        <li><a href="" title="">Tuyển dụng</a></li>
+        <li class="last"><a href="" title="">Liên hệ</a></li>
+      </ul><!-- .topnav -->
+      
+      <img id="hotline" src="images/phone-icon.png" alt="" />
+    </div>
+  </div><!-- .top -->
+  
+  <div class="nav">
+    <div class="grid0">
+    
+      <ul id="topnav" class="sf-menu">
+		<li><a href="">Tên miền</a>
+			<ul class="sub-menu" style="display: none; visibility: hidden;">
+				<li class="first"><a href="">Đăng ký tên miền</a></li>	
+				<li><a href="">Bảng giá tên miền</a></li>
+				<li><a href="">Đại lý tên miền</a></li>
+				<li class="last"><a href="">Hỏi đáp tên miền</a></li>
+			</ul>
+		</li>
+		<li><a href="">Hosting</a>
+			<ul class="sub-menu" style="display: none; visibility: hidden;">
+				<li class="first"><a href="">Bảng giá hosting</a></li>
+				<li><a href="">Reseller hosting</a></li>
+				<li><a href="">Đại lý hosting</a></li>
+				<li class="last"><a href="">Hỏi đáp hosting</a></li>
+			</ul>
+		</li>
+		<li><a href="">Máy chủ/Server</a>
+			<ul class="sub-menu" style="display: none; visibility: hidden;">
+				<li class="first"><a href="">Máy chủ ảo / VPS</a></li>
+				<li><a href="">Thuê máy chủ</a></li>
+				<li><a href="">Thuê chỗ đặt máy chủ</a></li>
+				<li class="last"><a href="">Hỏi đáp máy chủ</a></li>
+			</ul>
+		</li>
+		<li><a href="">Thiết kế website</a>
+			<ul class="sub-menu" style="display: block; visibility: visible;">
+				<li class="first"><a href="">Báo giá thiết kế web</a></li>
+				<li><a href="">Báo giá dịch vụ web</a></li>
+				<li><a href="">Quảng cáo Adwords</a></li>
+				<li><a href="">Quảng bá website SEO</a></li>				
+				<li><a href="">Cập nhật bảo trì website</a></li>
+				<li class="last"><a href="">Mẫu website đẹp</a></li>
+			</ul></li>
+		<li><a href="">Network solutions</a>
+			<ul class="sub-menu" style="display: none; visibility: hidden;">
+				<li class="first"><a href="">Lắp đặt hệ thống mạng</a></li>
+				<li><a href="">Tổng đài điện thoại</a></li>				
+				<li><a href="">Web server /Mail server</a></li>
+				<li class="last"><a href="">Lắp đặt IP Camera</a></li>
+			</ul>
+		</li>
+		<li><a href="">Đào tạo</a>
+			<ul class="sub-menu" style="display: none; visibility: hidden;">
+				<li class="first"><a href="">Học thiết kế website</a></li>
+				<li><a href="">Học Photoshop</a></li>				
+				<li><a href="">Học tối ưu SEO website</a></li>
+				<li class="last"><a href="">Thủ thuật website</a></li>
+			</ul>
+		</li>
+	</ul><!-- #topnav -->
+    
+    </div>
+  </div><!-- .nav -->
+</div><!-- .sticky -->
+
+
+<div class="homehotline grid0">
+  <div class="col">
+    <h6>Kinh doanh Hồ Chí Minh</h6>
+    <p class="phone">0919 050 067</p>
+    <p class="address">96/94 đường Trục, Phường. 13, <br />Quận. Bình Thạnh, Tp. Hồ Chí Minh</p>
+  </div>
+  
+  <div class="col">
+    <h6>Kinh doanh Miền Trung</h6>
+    <p class="phone">0909 67 01 90</p>
+    <p class="address">02 Quang Trung, Phường Hải Châu 1, <br />Quận Hải Châu, Tp. Đà Nẵng</p>
+  </div>
+  
+  <div class="col">
+    <h6>Kinh doanh Hà Nội</h6>
+    <p class="phone">0973 072 742</p>
+    <p class="address">Tầng 6, FPT Cầu Giấy, P. Dịch Vọng Hậu,<br /> Quận Cầu Giấy, Tp. Hà Nội</p>
+  </div>
+  
+</div><!-- .homehotline -->
+
+<div class="banner grid0">
+  
+  <div class="bannerleft">
+    &nbsp;
+  </div><!-- .bannerleft -->
+  
+  <div class="slider">
+    <div>
+      <a hreft="df">
+      <img src="images/slide_1.jpg" alt=""/></a>
+    </div>
+	<div>
+		<img src="images/slide_2.jpg" alt=""/>
+	</div>
+	<div>
+		<img src="images/slide_3.jpg" alt=""/>
+	</div>
+	<div>
+		<img src="images/slide_4.jpg" alt=""/>
+	</div>
+ </div><!-- .slider --> 
+</div><!-- .banner -->
+
+<div class="homebox grid0">
+	<div class="before-content">
+		  <div class="top-box item3">
+			<h3>Thiết kế website</h3>
+			<div class="maxheight">
+			  <div class="box-text ">
+			    <img src="images/small-business-website-design_77.png" alt="">
+			  </div> 
+			  <div class="box-button">
+			    Thiết kế web trọn gói, kết hợp tối ưu SEO. Tiết kiệm tối đa chi phí khách hàng
+			    <ul>
+			  	  <li>Tặng tên miền quốc tế</li>
+			  	  <li>Miễn phí tạo email theo tên miền</li>
+			  	  <li>Tối ưu hóa tìm kiếm Google</li>
+			  	  <li>Bảo hành trọn đời</li>
+			  	  <li>Backup sao lưu dữ liệu hàng tuần</li>
+			  	</ul>
+		      </div> 
+		  	</div>
+		  </div>
+		  
+		  <div class="top-box item2">
+			<h3>Hosting</h3>
+			<div class="maxheight">
+			  <div class="box-text ">
+			    <img src="images/hosting.jpg" alt="">
+			  </div> 
+			  <div class="box-button">
+			    <p>Hosting tốc độ cao, hỗ trợ nhiều ngôn ngữ lâp trình, Joomla, Wordpress, Zend Framework... Bảo mật cao<br />
+			    Được áp dụng <a href="#">chính sách hoàn tiền</a> trong vào 30 ngày kể từ ngày đăng ký</p>
+			     
+			     <ul>
+			  	  <li>Tốc độ cao - Server đặt tại <img src="images/flag_vn.png" alt="" /></li>
+			  	  <li>Hệ điều hành Linux/Windows</li>
+			  	  <li>Miễn phí cài đặt, có thể sử dụng ngay</li>
+			  	  <li>Hỗ trợ kỹ thuật miễn phí 24/7</li>
+			  	</ul>
+		      </div> 
+		  	</div>
+		  </div>
+		  
+		  <div class="top-box item1">
+			<h3>Tên miền</h3>
+			<div class="maxheight">
+			  <div class="box-text">
+			    <img src="images/domain_name_auctions9.jpg" alt="">
+			  </div> 
+			  <div class="box-button">
+			    <p>Đại diện chính thức của Directi Inc & Enom Inc tại Việt Nam và là Nhà cung cấp được phép kích hoạt tên miền quốc gia
+			     .VN trực tiếp lên hệ thống của VNNIC mà không phải chờ đợi kiểm duyệt.</p>
+			     
+			     <ul>
+			  	  <li>Miển phí quản lý DNS</li>
+			  	  <li>Không giới hạn subdomain</li>
+			  	  <li>Email forwarding</li>
+			  	  <li>Hỗ trợ kỹ thuật miễn phí 24/7</li>
+			  	</ul>
+		      </div> 
+		  	</div>
+		  </div>
+		  
+		  <div class="top-box item4">
+			<h3>Network solutions</h3>
+			<div class="maxheight">
+			  <div class="box-text ">
+			    <img src="images/wireless-main2.gif" alt="">
+			  </div> 
+			  <div class="box-button">
+			    <p>Xây dựng, triển khai và cung cấp giải pháp hệ thống mạng LAN/WAN. Hệ thống SMS Marketing. 
+			    Hệ thông tổng đài trả lời tự động...<br />Bảo trì hệ thông máy tính doanh nghiệp</p>
+			     
+			     <ul>
+			  	  <li>Miễn phí tư vấn giải pháp</li>
+			  	  <li>Tối ưu hóa hệ thống</li>
+			  	  <li>Giám sát và cảnh báo hệ thống</li>
+			  	  <li>Miễn phí đào tạo sử dụng sản phẩm</li>
+			  	</ul>
+		      </div> 
+		  	</div>
+		  </div>
+		
+		<div class="cls"></div>
+	</div>
+</div>
+
+<div class="registeremail">
+  <span class="email-text">Đăng ký Email nhận để nhận tin khuyến mãi:</span>
+  <div class="email-box">
+      <i class="icon"></i>
+      <input type="text" class="text" id="email" placeholder="Email của bạn" autocomplete="off" />
+      <span class="button">Gửi</span>
+  </div>
+</div><!-- .payment -->
+
+<div class="footer">
+  <div class="grid0">
+  <div class="col first">
+    <h4>Thiết kế website</h4>
+    <ul>
+		<li class="first"><a href="">Báo giá thiết kế web</a></li>
+		<li><a href="">Báo giá dịch vụ web</a></li>
+		<li><a href="">Quảng cáo Adwords</a></li>
+		<li><a href="">Quảng bá website SEO</a></li>				
+		<li><a href="">Cập nhật bảo trì website</a></li>
+		<li><a href="">Lựa chọn mẫu website đẹp</a></li>
+		<li class="last"><a href="">Khách hàng thiết kế web của ITS Corp</a></li>
+	</ul>
+  </div>
+  
+  <div class="col">
+  
+  	<h4>Hosting</h4>
+  	<ul>
+		<li class="first"><a href="">Bảng giá hosting</a></li>
+		<li><a href="">Reseller hosting</a></li>
+		<li><a href="">Đại lý hosting</a></li>
+		<li><a href="">Máy chủ ảo / VPS server</a></li>
+		<li><a href="">Thuê máy chủ (Dedicated server)</a></li>
+		<li><a href="">Thuê chỗ đặt máy chủ</a></li>
+		<li class="last"><a href="">Hỏi đáp hosting</a></li>
+	</ul>
+  	
+  </div>
+  
+  <div class="col">
+  	<h4>Tên miền</h4>
+    <ul>
+		<li class="first"><a href="">Đăng ký tên miền</a></li>	
+		<li><a href="">Bảng giá tên miền</a></li>
+		<li><a href="">Đại lý tên miền</a></li>
+		<li class="last"><a href="">Hỏi đáp tên miền</a></li>
+		<li class="last"><a href="">Transfer / chuyển đổi nhà cũng cấp</a></li>
+	</ul>
+  </div>
+  
+  <div class="col last">
+  	<h4>ITS Corporation</h4>
+    <ul>
+      <li><a href="" title="">Giới thiệu</a></li>
+      <li><a href="" title="">Tuyển dụng</a></li>
+      <li><a href="" title="">Khuyến mãi</a></li>
+      <li><a href="" title="">Quy định sử dụng</a></li>
+      <li><a href="" title="">Chính sách riêng tư</a></li>
+      <li><a href="" title="">Hướng dẫn thanh toán</a></li>
+      <li><a href="" title="">Than phiền chất lượng dịch vụ</a></li>
+    </ul>
+    
+    <div class="sns">
+      
+    </div><!-- .sns -->
+  </div>
+  </div>
+  <div class="cls"></div>
+</div><!-- .footer -->
+
+<!-- Scoller link -->
+<a href="" class="scrollup">&nbsp;</a>
+<!-- Scoller link -->
+</body>
+</html>
